@@ -7,7 +7,7 @@ toc: false
 
 Returns the serialized data from the most recent route action or `undefined` if there isn't one.
 
-```tsx lines=[10,14]
+```tsx {10,14}
 import type { ActionFunctionArgs } from "@remix-run/node"; // or cloudflare/deno
 import { json } from "@remix-run/node"; // or cloudflare/deno
 import { Form, useActionData } from "@remix-run/react";
